@@ -6,6 +6,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="made by zenux"))
 
 @client.event
 async def on_member_join(member):
