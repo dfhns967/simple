@@ -1,6 +1,6 @@
 import discord
 
-Token = "NzM4OTA2NzI1MjU1NjEwMzY5.XySugw.sr3myVxqtyLmLA-RpOmIBtZ0CgY"
+Token = "NzM4OTA2NzI1MjU1NjEwMzY5.XySugw.fo0eL1ix5n36mpqGR5ixNOzCjik"
 client = discord.Client()
 
 @client.event
